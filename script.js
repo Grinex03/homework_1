@@ -5,14 +5,13 @@ let h = prompt('Введите высоту');
 let b = '**************';
 let c = '--------------------';
 let o = 'Обьем цилиндра с площадью основы ';
-let z = ' * '
 
 r = Math.pow (r, 2);
 a = Math.PI * r;
 v = a * h;
 
 document.write(`<span> ${b} </span> <br>
-<mark>${o} ${z} ${s} ${z}, радиусом ${z} ${r} ${z} и высотой ${z} ${h} ${z} равен: </mark> <br>
+<mark>${o} * ${s} *, радиусом * ${r} * и высотой * ${h} * равен: </mark> <br>
 ${c}<br>
 <span>V= ${v}</span><br>
 ${c}<br>
